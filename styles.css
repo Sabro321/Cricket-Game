@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    width: 120px;
+    height: 70px;
+    border: 2px solid black;
+}
+
+.out {
+    background-color: red;
+}
+
+.six {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#result {
+    font-size: 32px;
+}
